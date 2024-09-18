@@ -1,5 +1,5 @@
 <template>
-  <section class="flex items-center justify-center min-h-screen">
+  <section class="flex items-center justify-center">
     <div class=" w-full max-w-xl mb-96 px-4 sm:px-6 lg:px-8">
       <div id="pop-up" v-bind:style="popupStyles">{{ popupMessage }}</div>
       <div id="container mb-12">

@@ -18,4 +18,16 @@
   export default {
     name: 'NavComponent'
   }
+
+  const spanTitle = ref('Task')
+
+  const changeTitle = () => {
+    spanTitle.value = 'Task'
+  }
+
+  onMounted(() => {
+    changeTitle()
+  })
+
+  
   </script>
