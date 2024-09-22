@@ -19,6 +19,8 @@
     name: 'NavComponent'
   }
 
+  import { ref, onMounted } from 'vue'
+  
   const spanTitle = ref('Task')
 
   const changeTitle = () => {
